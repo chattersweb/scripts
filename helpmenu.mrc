@@ -7,7 +7,7 @@
 ;%hprefix Typ:
 
 
-menu @derp {
+menu channel {
   Help berichten
   .Algemeen: say http://chattersweb.nl/algemeen
   .Chatrooms
