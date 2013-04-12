@@ -17,7 +17,7 @@ menu channel {
   ...Droppen: say %hprefix /cs drop %hchan
 
   ...-
-  ...$style(2) -- Toegangs beheer -- : return
+  ...$style(2) -- Toegangs beheer -- : noop
   ...Autovoice: say %hprefix /cs levels %hchan set AUTOVOICE -1
   ...halfOP geel (tijdelijk): say %hprefix /mode %hchan +h %hname
   ...halfOP geel (vast): say %hprefix /cs access %hchan add %hname 4
@@ -30,7 +30,7 @@ menu channel {
   ...Owner veranderen: say %hprefix /cs set %hchan founder %hname
 
   ...-
-  ...$style(2) -- Akick -- : return
+  ...$style(2) -- Akick -- : noop
   ...Lijst bekijken: say %hprefix /cs akick %hchan list
   ...Toevoegen: say %hprefix /cs akick %hchan add %hname
   ...Verwijderen: say %hprefix /cs akick %chan del %hname
